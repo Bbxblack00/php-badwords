@@ -13,6 +13,8 @@
 
     echo $string;
 
+    echo strlen($string);
+
     $result = str_replace($badword, '***', $string);
 
     echo $result;
